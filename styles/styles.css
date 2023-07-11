@@ -1,0 +1,72 @@
+body{
+  font-family: 'Lato';
+}
+.header{
+  width: 1920px;
+height: 850px;
+flex-shrink: 0;
+}
+.header{
+  background: rgba(229, 84, 115, 0.10);
+  width: 1520px;
+ height: 600px;
+}
+.banner{
+  padding: 30px 30px 0px 150px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .profile-pic{ 
+  width: 400px;
+height: 500px;
+margin-right: 250px;
+margin-bottom: -170px;
+}
+.banner-descrip{
+  margin-top: -10px;
+  margin-bottom: 30px;
+  width: 585px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner-content{
+  max-width: 500px;
+}
+.banner-title{
+  width: 500px;
+color: #272727;
+font-size: 60px;
+font-weight: 800;
+}
+.btn-primary{
+  border-radius: 8px;
+ background: #E55473;
+ margin-top: 10px;
+ border: 0;
+ gap: 10px;
+ color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 43px;
+}
+
+.feature{
+  padding: 100px;
+}
+.feature-title{
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.feature-descrip{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  /* width: 594px; */
+  font-size: 18px;
+  font-weight: 400;
+ 
+}
