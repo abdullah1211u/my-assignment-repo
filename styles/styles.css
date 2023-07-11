@@ -2,11 +2,6 @@ body{
   font-family: 'Lato';
 }
 .header{
-  width: 1920px;
-height: 850px;
-flex-shrink: 0;
-}
-.header{
   background: rgba(229, 84, 115, 0.10);
   width: 1505px;
  height: 600px;
@@ -56,7 +51,7 @@ padding: 20px 43px;
 .feature{
   padding: 100px;
 }
-.feature-title{
+.feature-title1{
   color: #272727;
   text-align: center;
   font-size: 40px;
@@ -68,6 +63,7 @@ padding: 20px 43px;
   /* width: 594px; */
   font-size: 18px;
   font-weight: 400;
+ 
 }
 .feature-container{
   display:flex;
@@ -112,6 +108,9 @@ padding: 20px 43px;
   text-decoration: underline;
   text-align:center;
 }
+  
+  /* offer section */
+
 .offer-sec{
   padding: 30px 30px 0px 150px ;
   display: flex;
@@ -121,7 +120,7 @@ padding: 20px 43px;
   justify-content: space-between;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-  margin-bottom: 130px;
+  margin-bottom: 70px;
 }
 .offer-title{
   color: #272727;
@@ -189,4 +188,60 @@ margin-right: 270px;
 .flower-img{
   width: 342px;
   height: 396px;
+}
+.shop-sec{
+  display: flex;
+  justify-content:space-around;
+  width: 1300px;
+  height: 380px;
+  align-items: center;
+  background-image: url("Flower Asset/Rectangle 9.png");
+  background-size: cover;
+  margin-left: 100px;
+  margin-bottom: 130px;
+  
+}
+.sub-btn{
+  border-radius: 8px;
+ background: #E55473;
+ margin-top: 10px;
+ border: 0;
+ gap: 10px;
+ color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 43px;
+margin-left: -150px;
+}
+.form-cls input[type="text"]{
+   margin-bottom: 25px;
+   padding: 20px 200px;
+   color: #757575;
+   border-radius: 5px;
+   background: white;
+   border: 0px;
+   margin-right: 170px;
+}
+.shop-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.shop-title{
+  margin-bottom: -70px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+ 
+}
+.shop-descrip{
+  margin-bottom: 10px;
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
 }
